@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Schema1 */
+	body { font-family: Verdana, Arial, Helvetica, "Luxi Sans", sans-serif; 
+			color: rgb(255,255,255); 
+			background: rgb(153,204,204); }
+	h1, article { text-align:center; }
+	article { border: 2px solid rgb(0,0,0);
+			background:rgb(255,255,255);
+			color: rgb(0,0,0);
+			padding: .5em;
+			width: 500px;
+			margin: 5px auto;
+			display:block; }
+	img { 	float:right;
+			margin: 1px;
+			border: 1px solid black; }

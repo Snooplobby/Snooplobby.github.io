@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Schema Event with Microdata</title>
+	<link href="schema1.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body>
+<h1>Schema Event with Microdata</h1>
+<article itemscope itemtype="http://schema.org/SportsEvent">
+    <a itemprop="url" href="#">NHL Western Conference Final Playoff Tickets:<br><span itemprop="name"><span itemprop="homeTeam">Edmonton Oilers</span> vs. <span itemprop="awayTeam">Calgary Flames - Game 7</span></a><br>
+  <meta itemprop="startDate" content="2020-05-05T19:00">
+    Saturday 5th May 2020 7:00 p.m.
+  <div itemprop="location" itemscope itemtype="http://schema.org/Place">
+    <a itemprop="url" href="https://goo.gl/maps/mQK8yLjoVocthCCi8"><span iteemprop="name">Rogers place</span></a>
+    <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
+      <span itemprop="addressLocality">Edmonton</span>,
+      <span itemprop="addressRegion">AB</span>
+    </div>
+    <div itemprop="geo" itemscope itemtype="http://schema.org/GeoCoordinates">
+    <meta itemprop="latitude" content="53.5469097" />
+    <meta itemprop="longitude" content="-113.4978413" />
+  </div>   
+      </div>
+    </div>
+   <div itemprop="offers" itemscope itemtype="http://schema.org/AggregateOffer">
+    Priced from: <span itemprop="lowPrice">$496</span>
+    <span itemprop="offerCount">27</span> tickets left at <a href="http://www.ticketmaster.ca/Edmonton-oilers-tickets/artist/805943" title="Oiler Tickets at Ticketmaster" itemprop="url">Ticketmaster</a>
+  </div>
+</article>
+</body>
+</html>
